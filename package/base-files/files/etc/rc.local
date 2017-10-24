@@ -31,8 +31,6 @@ echo 0 > /sys/class/gpio/gpio106/value
 sleep 1
 
 # set RESET to 1
-echo 107 > /sys/class/gpio/export
-echo out > /sys/class/gpio/gpio107/direction
 echo 1 > /sys/class/gpio/gpio107/value
 
 exit 0
